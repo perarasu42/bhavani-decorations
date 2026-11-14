@@ -1,19 +1,65 @@
-BHAVANI DECORATIONS WEBSITE
+# Bhavani Decorations – Event Booking Website
 
-PROJECT FILES
-- index.html       Main website page
-- css/style.css    Custom styles
-- js/script.js     Booking form and WhatsApp enquiry logic
-- images/          Place your own event photos here
+A responsive event decoration website where customers can explore decoration services and send booking enquiries through WhatsApp.
 
-HOW TO RUN
-1. Extract the ZIP file.
-2. Open the project folder.
-3. Double-click index.html, or open it with VS Code and use Live Server.
-4. Internet is required for Tailwind CSS, Google Fonts and the sample Unsplash images.
+## Project Overview
 
-IMPORTANT BEFORE PUBLISHING
-- Open js/script.js and check WHATSAPP_NUMBER. It currently uses 919876543210 based on the number in the original project; replace it if this is not the correct business WhatsApp number.
-- The booking form opens WhatsApp with an enquiry message. It does not save bookings to a database or automatically confirm a booking.
-- Replace sample photos with the business's own event photos when available.
-- Instagram profile link is included in the page.
+Bhavani Decorations provides decoration services for weddings, birthday functions, temple festivals, housewarming ceremonies and other special occasions.
+
+## Features
+
+- Responsive website design
+- Home page and service sections
+- Wedding and birthday decoration gallery
+- Instagram profile integration
+- Event booking enquiry form
+- WhatsApp booking enquiry integration
+- Mobile-friendly layout
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
+- Google Fonts
+
+## Project Structure
+
+```text
+bhavani-decorations/
+│
+├── index.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+└── js/
+    └── script.js
+```
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` using Live Server.
+4. Explore the website in your browser.
+
+## Booking Functionality
+
+Customers can enter their event details and submit a booking enquiry. WhatsApp opens with a pre-filled message.
+
+Note: The website does not store bookings in a database or automatically confirm reservations.
+
+## Live Website
+
+https://perarasu42.github.io/bhavani-decorations/
+
+## GitHub Repository
+
+https://github.com/perarasu42/bhavani-decorations
+
+## Developer
+
+Bhavani Decorations – Freelance Website Project
