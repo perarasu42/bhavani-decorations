@@ -1,0 +1,12 @@
+:root { --wine:#762b43; --rose:#b85f72; --cream:#fff9f5; }
+    html { scroll-behavior:smooth; }
+    body { font-family:'DM Sans',sans-serif; background:var(--cream); color:#2d2526; }
+    h1,h2,h3,.serif { font-family:'Playfair Display',serif; }
+    .hero { background:linear-gradient(90deg,rgba(26,13,18,.76),rgba(26,13,18,.22)),url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=85') center/cover; }
+    .photo { transition:transform .35s ease; }
+    .photo:hover { transform:translateY(-5px); }
+    .btn { background:var(--wine); color:white; transition:.2s; }
+    .btn:hover { background:#592033; transform:translateY(-1px); }
+    .soft-card { box-shadow:0 12px 35px rgba(67,34,43,.08); }
+    input,select,textarea { outline:none; }
+    input:focus,select:focus,textarea:focus { border-color:var(--rose)!important; box-shadow:0 0 0 3px rgba(184,95,114,.13); }
